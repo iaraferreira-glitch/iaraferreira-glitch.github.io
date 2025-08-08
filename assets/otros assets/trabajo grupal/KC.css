@@ -1,0 +1,275 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a2e;
+  color: #eaeaea;
+}
+
+header {
+  background: linear-gradient(
+    90deg,
+    #0f0c29,
+    #302b63,
+    #24243e
+  ); /* Gradiente épico */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-family: "Cinzel", serif;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffcc00;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+main {
+  padding: 30px;
+}
+
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 30px auto;
+  padding: 20px;
+  background: linear-gradient(90deg, #3a3a3a, #4a4a4a);
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+}
+
+section h2 {
+  font-family: "Cinzel", serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: #ffcc00;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+section p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.button,
+.boton-juego {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover,
+.boton-juego:hover {
+  background-color: #218838;
+}
+
+img {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#videojuegos {
+  background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_7.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+  position: relative;
+  text-align: center;
+}
+
+#videojuegos h2 {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+#videojuegos p {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+
+#videojuegos img {
+  content: url("https://wallpapers.com/images/hd/stunning-league-of-legends-logo-942s55eoux26omnq.jpg");
+  position: relative;
+  z-index: 1;
+  width: 500px;
+  height: auto;
+  opacity: 0.8;
+  border-radius: 30px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  margin: 30px auto;
+}
+
+#videojuegos .button {
+  display: inline-block;
+  margin: 30px auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.tarjeta-juego {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.tarjeta-juego h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.tarjeta-juego img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.boton-juego {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-juego:hover {
+  background-color: #218838;
+}
+
+#musica {
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/490/122/desktop-wallpaper-music-notes-for-and-mobiles-youtube-cover-youtube-music.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+  position: relative;
+  text-align: center;
+}
+
+.tarjeta-musica h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.tarjeta-musica p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.contenido-musica {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contenido-musica img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+#series {
+  background-image: url("https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRKIQnGja8FW7HtFjgOF_TmYAR_dn3eeN2Cayj3Gm2kEhjSETNusxVJj712wh_n7reHNrt3Bt6_S_U7jF4h8ugUgeXYHpcqbzHxO.jpg?r=485");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+  position: relative;
+  text-align: center;
+}
+
+#series h2,
+#series p {
+  color: #000;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.8);
+}
+
+#series .button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#series .button:hover {
+  background-color: #218838;
+}
+
+#peliculas {
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJqwVpKcmHr3sLA6fOo3qh_ZoAYC9jrZk87YbviMHe2wB8dgXvIntWFxINJBbPeYXtVxtrhR1bH_kAs0CAr9u_wwJe2a7MHj0NT-4IBIBjttk1KXz5UgmEVwAYIqJl2IQ4kQ9Mdz_2s7M/s1075/CriticadeLaPeliculaLaviejaGuardia2020.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 500px;
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#peliculas .button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#peliculas .button:hover {
+  background-color: #218838;
+}

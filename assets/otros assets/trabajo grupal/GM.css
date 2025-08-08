@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: #ddd;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #1e1e1e;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 2.5em;
+  color: #cfae67;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px;
+}
+
+.card {
+  background-color: #222;
+  border-radius: 15px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 180, 50, 0.1);
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #444;
+}
+
+/* Mensaje tipo Souls */
+.mensaje {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #ff9900;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.card:hover .mensaje {
+  opacity: 1;
+}
+
+/* Botón */
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6b2e2e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.boton:hover {
+  background-color: #a83232;
+}
+
+.info {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #1e1e1e;
+  font-size: 0.9em;
+}

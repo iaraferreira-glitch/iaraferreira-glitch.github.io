@@ -1,0 +1,129 @@
+body {
+  background: linear-gradient(135deg, #ebab7093, #facca2);
+  color: #4b0150;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 6em;
+  color: #c42e13;
+  text-shadow: 0 0 10px #fff0fb, 0 0 20px #d946ef;
+  animation: glow 2s ease-in-out infinite alternate;
+  margin-bottom: 10px;
+  font-family: "hades", sans-serif;
+}
+h3 {
+  font-size: 4em;
+  color: #c5645393;
+  text-shadow: 0 0 10px #fff0fb, 0 0 20px #c52611;
+  animation: glow 2s ease-in-out infinite alternate;
+  margin-bottom: 10px;
+  font-family: "hades", sans-serif;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #f5805d, 0 0 10px #b60e0e;
+  }
+  to {
+    text-shadow: 0 0 15px #ffc59f, 0 0 30px #ef7c46;
+  }
+}
+
+img:hover {
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 12px 24px rgba(82, 4, 4, 0.3);
+}
+
+p {
+  font-size: 1.5em;
+  margin: 20px 0;
+  color: #f0745e;
+  text-shadow: 0 0 5px #fff;
+  border-radius: 2;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 20%;
+  box-shadow: 0 0 20px rgba(189, 25, 25, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 25%;
+}
+
+.button {
+  background-color: #fcc28c;
+  border: rgb(95, 17, 17);
+  color: rgb(202, 91, 91);
+  padding: 1px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 1px 0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.tarjeta-juego h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #b93f2a;
+}
+
+.tarjeta-juego p {
+  font-size: 1em;
+  color: #4a2e1d;
+}
+.contenedor-juegos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.tarjeta-juego {
+  background: #fff3e6;
+  border: 2px solid #f0a17f;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.tarjeta-juego:hover {
+  transform: scale(1.02);
+}
+
+.tarjeta-juego img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.iframe-tarjeta {
+  background: #fff3e6;
+  border: 2px solid #f0a17f;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.iframe-tarjeta:hover {
+  transform: scale(1.02);
+}
+iframe {
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+}
+iframe:hover {
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 12px 24px rgba(82, 4, 4, 0.3);
+}

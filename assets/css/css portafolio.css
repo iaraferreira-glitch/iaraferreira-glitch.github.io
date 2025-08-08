@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #f3d1e6, #c0d2ee);
+  color: #686363;
+}
+
+header {
+  background: linear-gradient(to bottom, #f3d1e6, #c0d2ee); 
+  background-size: cover;
+  background-position: center; 
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  clip-path: polygon(
+    100% 10%, 100% 0, 0 0, 0 10%, 0 90%, 25% 100%, 50% 90%, 75% 100%, 100% 90%
+  );
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  margin: 0;
+  color: #222;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #666;
+}
+
+.perfil-outer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.perfil-inner {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfil-inner img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.5px solid #969696;
+}
+
+.section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #eee;
+  font-size: 0.9rem;
+  color: #777;
+}
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.proyecto {
+  background-color: #fae3f4;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.proyecto:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #222;
+  color: #f5cdea;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.contact-form button:hover {
+  background-color: #444;
+}

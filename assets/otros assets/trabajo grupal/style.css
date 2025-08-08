@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(135deg, #9cf0e593, #11bb66);
+  color: #69ad2a;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.button {
+  background-color: #4caf50; /* Fondo verde */
+  color: rgb(187, 236, 52);  /* Color de texto */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+   width: 30%;
+
+  border: 3px solid #a0ff66;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+
+  box-shadow: inset 0 0 8px #baff91, 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+  transform: scale(1.05) rotate(1deg);
+  background-color: #66bb6a;         /* Fondo más claro al pasar el mouse */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 0 10px #bbec34;
+  border-color: #d4ff84;             /* Cambia el color del borde en hover */
+}
+h1,
+h2 {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0;
+}
+a {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}

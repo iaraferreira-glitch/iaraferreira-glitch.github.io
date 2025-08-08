@@ -1,0 +1,25 @@
+.imagen-sencillo,
+.imagen-album{
+width: 350px;
+height: 350px;
+margin-right: 20px;
+display: inline-block;
+margin-bottom: 20px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.contenedor-principal {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffe1c4;
+}
+
+body {
+    font-family: Brush Script MT, cursive;
+    background-color: rgb(250, 246, 230);
+    text-align: center;
+}
