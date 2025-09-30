@@ -7,14 +7,23 @@ body {
 }
 
 header {
-  background: linear-gradient(to bottom, #f3d1e6, #c0d2ee); 
+  align-items: center;
+  background: linear-gradient(to bottom, #f3d1e6, #c0d2ee);
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   padding: 60px 20px;
   text-align: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   clip-path: polygon(
-    100% 10%, 100% 0, 0 0, 0 10%, 0 90%, 25% 100%, 50% 90%, 75% 100%, 100% 90%
+    100% 10%,
+    100% 0,
+    0 0,
+    0 10%,
+    0 90%,
+    25% 100%,
+    50% 90%,
+    75% 100%,
+    100% 90%
   );
 }
 
@@ -104,6 +113,7 @@ footer {
 .contact-form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 15px;
   max-width: 600px;
   margin: auto;
@@ -131,4 +141,9 @@ footer {
 
 .contact-form button:hover {
   background-color: #444;
+}
+@media only screen and (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
